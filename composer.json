@@ -1,0 +1,14 @@
+{
+	"name": "forrest79/dev-certs",
+	"description": "Create SSL wildcards domain certificates with own certificate authority for and ONLY for development.",
+	"keywords": ["ssl", "https", "certificates"],
+	"type": "library",
+	"license": "BSD-3-Clause",
+	"authors": [
+		{
+			"name": "Jakub Trmota",
+			"email": "jakub@trmota.cz"
+		}
+	],
+    "bin": ["bin/generate-certificate"]
+}
