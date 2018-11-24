@@ -1,19 +1,16 @@
-Forrest79/DevCerts
-==================
+# Forrest79/DevCerts
 
 [![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://github.com/forrest79/DeployPhp/blob/master/license.md)
 
 Create SSL wildcards domain certificates with own certificate authority for and ONLY for development.
 
 
-Requirements
-------------
+## Requirements
 
 Forrest79/DeployPhp linux with openssl installed.
 
 
-Installation
-------------
+## Installation
 
 The recommended way to install Forrest79/DevCerts is through Composer:
 
@@ -22,8 +19,7 @@ composer require forrest79/dev-certs
 ```
 
 
-Documentation
--------------
+## Documentation
 
 To generate certificate just call `bin/generate-certificate output_directory domain1 [domain2] [domainX]`. For every domain is generated certificate for `domain` and `*.domain`.
 
