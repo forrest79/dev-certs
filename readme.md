@@ -7,7 +7,7 @@ Create SSL wildcards domain certificates with own certificate authority for and 
 
 ## Requirements
 
-Forrest79/DeployPhp linux with openssl installed.
+Forrest79/DevCerts requires linux with openssl installed.
 
 
 ## Installation
