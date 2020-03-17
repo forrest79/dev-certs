@@ -15,7 +15,7 @@ Forrest79/DevCerts requires linux with openssl installed.
 The recommended way to install Forrest79/DevCerts is through Composer:
 
 ```sh
-composer require forrest79/dev-certs
+composer require --dev forrest79/dev-certs
 ```
 
 
