@@ -1,6 +1,8 @@
 # Forrest79/DevCerts
 
-[![License](https://img.shields.io/badge/License-BSD%203--Clause-blue.svg)](https://github.com/forrest79/DeployPhp/blob/master/license.md)
+[![Version](https://poser.pugx.org/forrest79/dev-certs/version)](//packagist.org/packages/forrest79/dev-certs)
+[![Monthly Downloads](https://poser.pugx.org/forrest79/dev-certs/d/monthly)](//packagist.org/packages/forrest79/dev-certs)
+[![License](https://poser.pugx.org/forrest79/dev-certs/license)](//packagist.org/packages/forrest79/dev-certs)
 
 Create SSL wildcards domain certificates with own certificate authority for and ONLY for development.
 
