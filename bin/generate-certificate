@@ -14,7 +14,7 @@ fi
 
 ROOTCA="DEVCERTS"
 
-PWD=$(cd `dirname $0` && pwd)
+PWD=$(dirname "$(realpath "$0")")
 CERTSDIR="$PWD/../certs"
 
 DIRECTORY=$1
