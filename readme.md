@@ -3,6 +3,7 @@
 [![Version](https://poser.pugx.org/forrest79/dev-certs/version)](//packagist.org/packages/forrest79/dev-certs)
 [![Monthly Downloads](https://poser.pugx.org/forrest79/dev-certs/d/monthly)](//packagist.org/packages/forrest79/dev-certs)
 [![License](https://poser.pugx.org/forrest79/dev-certs/license)](//packagist.org/packages/forrest79/dev-certs)
+[![npm](https://img.shields.io/badge/npm-v0.2.1-blue)](//www.npmjs.com/package/@forrest79/dev-certs)
 
 Create SSL wildcards domain certificates with own certificate authority for and ONLY for development.
 
@@ -20,6 +21,12 @@ The recommended way to install Forrest79/DevCerts is through Composer:
 composer require --dev forrest79/dev-certs
 ```
 
+or npm:
+
+```sh
+npm install @forrest79/dev-certs --save-dev
+```
+
 
 ## Documentation
 
@@ -28,6 +35,8 @@ To generate certificate just call `bin/generate-certificate output_directory dom
 `output_directory` is directory, where new certificates will be generated
 `domain1` is main domain and certificates and keys are named by this domain (`domain1.crt`, `domain1.key` and `domain1.pem` are generated in `output_directory`)
 `domain2` .. `domainX` are other domains to be included in certificate
+
+> For npm run script with `npm exec @forrest79/dev-certs`.
 
 **Example:**
 
