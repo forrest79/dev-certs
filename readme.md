@@ -3,7 +3,7 @@
 [![Version](https://poser.pugx.org/forrest79/dev-certs/version)](//packagist.org/packages/forrest79/dev-certs)
 [![Monthly Downloads](https://poser.pugx.org/forrest79/dev-certs/d/monthly)](//packagist.org/packages/forrest79/dev-certs)
 [![License](https://poser.pugx.org/forrest79/dev-certs/license)](//packagist.org/packages/forrest79/dev-certs)
-[![npm](https://img.shields.io/badge/npm-v0.2.1-blue)](//www.npmjs.com/package/@forrest79/dev-certs)
+[![npm](https://img.shields.io/npm/v/%40forrest79%2Fdev-certs)](//www.npmjs.com/package/@forrest79/dev-certs)
 
 Create SSL wildcards domain certificates with own certificate authority for and ONLY for development.
 
